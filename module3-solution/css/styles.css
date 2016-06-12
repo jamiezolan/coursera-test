@@ -1,0 +1,112 @@
+body {
+    font-size: 20px;
+    color: #000000;
+    background-color: #ffffff;
+    font-family: 'Helvetica', sans-serif;
+}
+#header-nav {
+    background-color: #a7a7a7;
+    border-radius: 0;
+    border: 1px solid black;
+}
+}
+.navbar-brand {
+    padding-top: 50px;
+}
+.navbar-brand h1 {
+    font-family: 'Helvetica', sans-serif;
+    color: #000000;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+    text-decoration: none;
+}
+#nav-list {
+    border-top: 1px solid black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 1em;
+    background-color: #ffffff;
+}
+#nav-list a {
+    color: #000000;
+    text-align: center;
+    line-height: 5px;
+    padding-bottom: 15px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#nav-list a:hover {
+    background: #fbd7d3;
+}
+#nav-list a span {
+    font-size: 3em;
+}
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+    border: 1px solid #000000;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -40px;
+}
+.container .jumbotron {
+    border-radius: 0;
+    background-color: #a7a7a7;
+}
+.title {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 25px;
+}
+.font-bold {
+    font-weight: bold;
+}
+@media (min-width: 1200px) {
+    .container .jumbotron {
+        height: 1000px;
+        margin: auto;
+        padding: 5px 20px 0px 20px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container .jumbotron {
+        height: 1000px;
+        margin: auto;
+        padding: 5px 20px 0px 20px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .container .jumbotron {
+        height: 1000px;
+        margin: auto;
+        padding: 5px 20px 0px 20px;
+    }
+}
+@media (max-width: 767px) {
+    #collapsable-nav a {
+        font-size: 1.2em;
+    }
+    #collapsable-nav a span {
+        font-size: 1em;
+        margin-right: 5px;
+    }
+    .container .jumbotron {
+        height: 1000px;
+        margin: auto;
+        padding: 5px 20px 0px 20px;
+    }
+    .col-xs-12 {
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        float: left;
+        width: 100%;
+    }
+}

@@ -1,2 +1,2 @@
-# coursera-test
-Coursera test repository
+# Portfolio
+This repository contains various assignments and samples.
